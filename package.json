@@ -1,0 +1,47 @@
+{
+  "name": "tec3",
+  "productName": "TEC3",
+  "version": "1.0.0",
+  "main": "./app/main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MarceloDutto/TEC3.git"
+  },
+  "keywords": [
+    "app",
+    "media",
+    "player",
+    "video",
+    "audio",
+    "education"
+  ],
+  "author": "Marcelo Dutto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MarceloDutto/TEC3/issues"
+  },
+  "homepage": "https://github.com/MarceloDutto/TEC3#readme",
+  "description": "",
+  "devDependencies": {
+    "electron": "^33.0.2",
+    "electron-builder": "^25.1.8"
+  },
+  "build": {
+    "appId": "com.MarceloDutto.tec3",
+    "win": {
+      "target": "nsis",
+      "icon": "icon.ico"
+    },
+    "nsis": {
+      "oneClick": false,
+      "installerIcon": "icon.ico",
+      "uninstallerIcon": "icon.ico",
+      "uninstallDisplayName": "TEC3-uninstaller",
+      "allowToChangeInstallationDirectory": true
+    }
+  }
+}
