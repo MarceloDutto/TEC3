@@ -1,8 +1,9 @@
-const { app, BrowserWindow } = require('electron');
+const { app, BrowserWindow, ipcMain } = require('electron');
 const path = require('path');
 
 // Global variables
 let mainWindow;
+const isMac = process.platform === 'darwin';
 
 // Functions
 const createMainWindow = () => {

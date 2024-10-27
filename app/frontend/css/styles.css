@@ -53,10 +53,6 @@ header {
     align-items: center;
 }
 
-.logo {
-
-}
-
 .search-section {
     position: relative;
     max-width: 300px;
@@ -88,7 +84,6 @@ header {
     background-color: #009ADA;
     color: #fff;
 }
-
 
 /* FOOTER */
 footer {

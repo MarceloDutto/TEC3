@@ -5,6 +5,7 @@ const closeButton = document.querySelector('#close-app');
 
 minButton.addEventListener('click', () => {
     ipcRenderer.send('minApp');
+    console.log('click')
 });
 
 maxButton.addEventListener('click', () => {
