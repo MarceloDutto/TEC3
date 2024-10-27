@@ -5,10 +5,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Security-Policy" content="default-src 'self' blob:; script-src 'self';"/>
     <meta http-equiv="X-Content-Security-Policy" content="default-src 'self' blob:; script-src 'self'; "/>
-    <link rel="stylesheet" href="/app/frontend/css/styles.css">
+    <link rel="stylesheet" href="css/styles.css">
     <title>TEC3</title>
+    <meta name="description" content="App de tipo plataforma para la reproducción de medios audiovisuales, realizada para la exposición de trabajos prácticos de los alumnos de la Escuela Técnica N° 3 de Vicente López.">
 </head>
 <body>
-    <script src="/app/frontend/js/renderer.js"></script>
+    <!-- HOME SECTION -->
+    <section id="home">
+        <div class="home-wrapper">
+            <div class="drag-region"></div>
+            <header>
+                <div class="logo">
+                    <img src="assets/img/logo.png" alt="Logo de la Escuela Tecnica 3 de Vicente Lopez" height="100px">
+                </div>
+                <div class="search-section"></div>
+                <div class="window-controls">
+                    <div class="w-icon" id="min-window" title="Minimize">
+                        <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M5 12h14" />
+                        </svg>                      
+                    </div>
+                    <div class="w-icon" id="max-window" title="Maximize">
+                        <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3 8.25V18a2.25 2.25 0 0 0 2.25 2.25h13.5A2.25 2.25 0 0 0 21 18V8.25m-18 0V6a2.25 2.25 0 0 1 2.25-2.25h13.5A2.25 2.25 0 0 1 21 6v2.25m-18 0h18M5.25 6h.008v.008H5.25V6ZM7.5 6h.008v.008H7.5V6Zm2.25 0h.008v.008H9.75V6Z" />
+                        </svg>                       
+                    </div>
+                    <div class="w-icon" id="close-app" title="Close">
+                        <svg fill="none" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+                        </svg>                     
+                    </div>
+                </div>
+            </header>
+            <main></main>
+            <footer>
+                <div>
+                    <img src="assets/img/logo.png" alt="Logo de la Escuela Tecnica 3 de Vicente Lopez" height="62px">
+                </div>
+                <h5 class="footer-content">© 2024 Escuela Técnica 3 “Hipólito Yrigoyen” | Desarrollado por Marcelo Dutto | www.marcelodutto.com</h5>
+            </footer>
+        </div>
+    </section>
+
+    <!-- MEDIA PLAYER SECTION -->
+    <section id="player">
+
+    </section>
+
+    <script src="js/renderer.js"></script>
 </body>
 </html>

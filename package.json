@@ -25,7 +25,7 @@
     "url": "https://github.com/MarceloDutto/TEC3/issues"
   },
   "homepage": "https://github.com/MarceloDutto/TEC3#readme",
-  "description": "",
+  "description": "App de tipo plataforma para la reproducción de medios audiovisuales, realizada para la exposición de trabajos prácticos de los alumnos de la Escuela Técnica N° 3 de Vicente López.",
   "devDependencies": {
     "electron": "^33.0.2",
     "electron-builder": "^25.1.8"
